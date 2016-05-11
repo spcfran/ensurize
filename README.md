@@ -1,6 +1,8 @@
 # ensurize
 Ensurize pattern as described in http://www.franr.com/2015/12/optimizing-javascript-promises-avoiding-redundant-requests/
 
+In a nutshell: [_.once](http://underscorejs.org/#once) for Promises. 
+
 ## Install
 
 ```bash
@@ -26,6 +28,7 @@ increment({ value: 0 })
 
 // Wrap original function
 var ensureIncremented = ensurize(increment);
+
 // Side effect only happens once
 ensureIncremented({ value: 0 })
     .then(ensureIncremented)
