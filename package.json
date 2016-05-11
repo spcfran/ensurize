@@ -1,0 +1,27 @@
+{
+    "name": "ensurize",
+    "version": "0.1.0",
+    "description": "Wraps a promise in a function that only gets called once",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test"
+    },
+    "devDependencies": {
+        "tape": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/spcfran/ensurize.git"
+    },
+    "keywords": [
+        "promise",
+        "once",
+        "wrapper"
+    ],
+    "author": "Fran Rodriguez (@spcfran)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/spcfran/ensurize/issues"
+    },
+    "homepage": "https://github.com/spcfran/ensurize"
+}
